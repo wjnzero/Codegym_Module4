@@ -28,6 +28,11 @@
           <element id="library" level="project" name="Gradle: nz.net.ultraq.extensions:groovy-extensions:1.1.0" />
           <element id="library" level="project" name="Gradle: ognl:ognl:3.1.26" />
           <element id="library" level="project" name="Gradle: org.javassist:javassist:3.20.0-GA" />
+          <element id="library" level="project" name="Gradle: org.junit.jupiter:junit-jupiter-api:5.9.0" />
+          <element id="library" level="project" name="Gradle: org.junit.platform:junit-platform-commons:1.9.0" />
+          <element id="library" level="project" name="Gradle: org.opentest4j:opentest4j:1.2.0" />
+          <element id="library" level="project" name="Gradle: org.junit.jupiter:junit-jupiter-engine:5.9.0" />
+          <element id="library" level="project" name="Gradle: org.junit.platform:junit-platform-engine:1.9.0" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="SpringMVC.main/web/Web Gradle : SpringMVC-1.0-SNAPSHOT.war" />
