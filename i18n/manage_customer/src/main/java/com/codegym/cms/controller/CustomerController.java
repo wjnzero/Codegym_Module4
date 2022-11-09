@@ -76,7 +76,8 @@ public class CustomerController {
         String operatingSystem = System.getProperty("os.name");
 
         if ("Linux".contains(operatingSystem) || "Mac OS X".contains(operatingSystem)) {
-            shutdownCommand = "shutdown -h now";
+//            shutdownCommand = "shutdown -h now";
+            shutdownCommand = "sudo shutdown -h now";
         }
         else if ("Windows 10".contains(operatingSystem)) {
             shutdownCommand = "shutdown.exe -s -t 0";
