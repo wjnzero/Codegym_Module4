@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2e61ad7a-0de1-4d74-8ad6-893b990ede7b" name="Changes" comment="up">
+      <change afterPath="$PROJECT_DIR$/../../Spring env files/hug.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/buildJwt/spring-jwt/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/buildJwt/spring-jwt/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/buildJwt/spring-jwt/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/buildJwt/spring-jwt/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/buildJwt/spring-jwt/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/buildJwt/spring-jwt/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/buildJwt/spring-jwt/src/main/java/com/codegym/configuration/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/buildJwt/spring-jwt/src/main/java/com/codegym/configuration/AppInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/buildJwt/spring-jwt/src/main/java/com/codegym/configuration/CustomAccessDeniedHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/buildJwt/spring-jwt/src/main/java/com/codegym/configuration/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/buildJwt/spring-jwt/src/main/java/com/codegym/configuration/RestAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/buildJwt/spring-jwt/src/main/java/com/codegym/configuration/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/buildJwt/spring-jwt/src/main/java/com/codegym/configuration/SecurityInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/buildJwt/spring-jwt/src/main/java/com/codegym/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/buildJwt/spring-jwt/src/main/java/com/codegym/model/JwtResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/buildJwt/spring-jwt/src/main/java/com/codegym/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/buildJwt/spring-jwt/src/main/java/com/codegym/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/buildJwt/spring-jwt/src/main/java/com/codegym/model/UserPrinciple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/buildJwt/spring-jwt/src/main/java/com/codegym/repository/IRoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/buildJwt/spring-jwt/src/main/java/com/codegym/repository/IUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/buildJwt/spring-jwt/src/main/java/com/codegym/service/IGeneralService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/buildJwt/spring-jwt/src/main/java/com/codegym/service/jwt/JwtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/buildJwt/spring-jwt/src/main/java/com/codegym/service/role/IRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/buildJwt/spring-jwt/src/main/java/com/codegym/service/role/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/buildJwt/spring-jwt/src/main/java/com/codegym/service/user/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/buildJwt/spring-jwt/src/main/java/com/codegym/service/user/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/buildJwt/spring-jwt/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/demoJWT/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/demoJWT/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/demoJWT/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/demoJWT/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/demoJWT/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/demoJWT/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/demoJWT/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/demoJWT/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/demoJWT/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/demoJWT/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/demoJWT/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/demoJWT/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/demoJWT/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/demoJWT/src/main/java/com/hug/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/demoJWT/src/main/java/com/hug/config/AppInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/demoJWT/src/main/java/com/hug/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/demoJWT/src/main/java/com/hug/config/SecurityInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/demoJWT/src/main/java/com/hug/controller/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/demoJWT/src/main/java/com/hug/controller/UserRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/demoJWT/src/main/java/com/hug/model/AppUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/demoJWT/src/main/java/com/hug/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/demoJWT/src/main/java/com/hug/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/demoJWT/src/main/java/com/hug/model/UserPrinciple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/demoJWT/src/main/java/com/hug/repo/IRoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/demoJWT/src/main/java/com/hug/repo/IUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/demoJWT/src/main/java/com/hug/rest/CustomAccessDeniedHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/demoJWT/src/main/java/com/hug/rest/JwtAuthenticationTokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/demoJWT/src/main/java/com/hug/rest/RestAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/demoJWT/src/main/java/com/hug/service/IGeneralService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/demoJWT/src/main/java/com/hug/service/JwtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/demoJWT/src/main/java/com/hug/service/UserServiceJwt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/demoJWT/src/main/java/com/hug/service/role/IRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/demoJWT/src/main/java/com/hug/service/role/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/demoJWT/src/main/java/com/hug/service/user/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/demoJWT/src/main/java/com/hug/service/user/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/demoJWT/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/security/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/security/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/security/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/security/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/security/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/security/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/security/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/security/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/security/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/security/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/security/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/security/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/security/src/main/java/com/hug/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/security/src/main/java/com/hug/config/Appinit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/security/src/main/java/com/hug/config/CustomSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/security/src/main/java/com/hug/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/security/src/main/java/com/hug/config/SecurityInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/security/src/main/java/com/hug/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/security/src/main/webapp/WEB-INF/views/admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/security/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/security/src/main/webapp/WEB-INF/views/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authentication &amp; authorization/security/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../config/database.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/demo/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/demo1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/demo1/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/demo1/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/demo1/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/demo1/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/demo1/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/demo1/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/demo1/src/main/java/com/example/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/demo1/src/main/java/com/example/demo/Demo1Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/demo1/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/demo1/src/main/resources/templates/concac.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/demo1/src/main/resources/templates/error-404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/demo1/src/test/java/com/example/demo/Demo1ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/jwt/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/jwt/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/jwt/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/jwt/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/jwt/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/jwt/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/jwt/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/jwt/src/main/java/com/hug/jwt/JwtApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/jwt/src/main/java/com/hug/jwt/controller/UserRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/jwt/src/main/java/com/hug/jwt/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/jwt/src/main/java/com/hug/jwt/service/JwtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/jwt/src/main/java/com/hug/jwt/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/jwt/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/jwt/src/test/java/com/hug/jwt/JwtApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/qlsp/customer-management/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/qlsp/customer-management/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/qlsp/customer-management/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/qlsp/customer-management/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/qlsp/customer-management/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/qlsp/customer-management/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/qlsp/customer-management/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/qlsp/customer-management/src/main/java/cg/wbd/grandemonstration/GranDemonstrationApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/qlsp/customer-management/src/main/java/cg/wbd/grandemonstration/configuration/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/qlsp/customer-management/src/main/java/cg/wbd/grandemonstration/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/qlsp/customer-management/src/main/java/cg/wbd/grandemonstration/exception/CustomerNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/qlsp/customer-management/src/main/java/cg/wbd/grandemonstration/formatter/ProvinceFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/qlsp/customer-management/src/main/java/cg/wbd/grandemonstration/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/qlsp/customer-management/src/main/java/cg/wbd/grandemonstration/model/Province.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/qlsp/customer-management/src/main/java/cg/wbd/grandemonstration/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/qlsp/customer-management/src/main/java/cg/wbd/grandemonstration/repository/ProvinceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/qlsp/customer-management/src/main/java/cg/wbd/grandemonstration/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/qlsp/customer-management/src/main/java/cg/wbd/grandemonstration/service/ProvinceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/qlsp/customer-management/src/main/java/cg/wbd/grandemonstration/service/impl/CustomerServiceImplWithSpringData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/qlsp/customer-management/src/main/java/cg/wbd/grandemonstration/service/impl/ProvinceServiceImplWithSpringData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/qlsp/customer-management/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/qlsp/customer-management/src/main/resources/templates/customers/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/qlsp/customer-management/src/main/resources/templates/customers/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/qlsp/customer-management/src/test/java/hungdeptrai/test/controller/CustomerControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/qlsp/customer-management/src/test/java/hungdeptrai/test/service/CustomerServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring boot/template" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../test/spring-boot-tutorial" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../theif/Case4-SchoolManagement" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CSDL and ORM/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../CSDL and ORM/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CSDL and ORM/ex/Spring-ORM" beforeDir="false" afterPath="$PROJECT_DIR$/../../CSDL and ORM/ex/Spring-ORM" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../fix loi/M4section5-picture-of-the-day" beforeDir="false" afterPath="$PROJECT_DIR$/../../fix loi/M4section5-picture-of-the-day" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../fix loi/phong/M4-Validation" beforeDir="false" afterPath="$PROJECT_DIR$/../../fix loi/phong/M4-Validation" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../fix loi/thuong/Customer-CRUD-JPA" beforeDir="false" afterPath="$PROJECT_DIR$/../../fix loi/thuong/Customer-CRUD-JPA" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="b1cfebd6-bd38-4653-9a71-4e8c668324a9" />
+        <option name="url" value="https://github.com/wjnzero/CSM4G1.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.3.23/94793c1edac695de5dca72844fc41d02eb2822e1/spring-web-5.3.23-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.3.23/d77b6c649df29dbc7cb5ced14eed149c82026168/spring-webmvc-5.3.23-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HFqB4t41Y95Sm7whu8Uz7QSJbD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Git.Branch.Popup.ShowAllRemotes": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/hoc_tap/codegym/module4/cayMd4/CGmanagement/CSM4G1",
+    "list.type.of.created.stylesheet": "CSS",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "JavaScript.Libraries",
+    "spring.configuration.checksum": "974d0fa4cccc94bfa6bec70ca97b85c2"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\hoc_tap\codegym\module4\cayMd4\CGmanagement\FE\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\hoc_tap\codegym\module4\cayMd4\CGmanagement\FE" />
+      <recent name="D:\hoc_tap\codegym\module4\cayMd4\CGmanagement\src\main\resources\templates\js" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CGmanagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="CGmanagement.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.management.cgmanagement.CGmanagementApplication" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="true" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+          <ENTRY IS_ENABLED="true" PARSER="env" IS_EXECUTABLE="false" PATH="$PROJECT_DIR$/../config/database.env" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2e61ad7a-0de1-4d74-8ad6-893b990ede7b" name="Changes" comment="" />
+      <created>1667891041633</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667891041633</updated>
+      <workItem from="1667891045202" duration="4753000" />
+      <workItem from="1667975751686" duration="1703000" />
+      <workItem from="1667977573507" duration="1523000" />
+      <workItem from="1667980635530" duration="1523000" />
+      <workItem from="1667983509368" duration="6349000" />
+      <workItem from="1667999601214" duration="8840000" />
+      <workItem from="1668008802895" duration="3086000" />
+      <workItem from="1668042801121" duration="22279000" />
+      <workItem from="1668087128575" duration="5892000" />
+      <workItem from="1668128907970" duration="14811000" />
+      <workItem from="1668156491238" duration="4263000" />
+      <workItem from="1668316374093" duration="1009000" />
+      <workItem from="1668317453573" duration="181000" />
+    </task>
+    <task id="LOCAL-00001" summary="up">
+      <created>1667984423109</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667984423109</updated>
+    </task>
+    <task id="LOCAL-00002" summary="up">
+      <created>1668316794598</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668316794599</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="up" />
+    <option name="LAST_COMMIT_MESSAGE" value="up" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/management/cgmanagement/service/jwt/TokenService.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest" memberName="response" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
